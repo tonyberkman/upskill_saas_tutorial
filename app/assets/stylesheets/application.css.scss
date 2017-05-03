@@ -40,8 +40,21 @@ background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, F
   border: none;
 }
 
+  .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover,  &:focus {
+    background-color: #00c6ff;
+  }
+}
+
 .navbar-brand {
-  font-family: 'Open-sans', 'Sans-serif'
+  font-family: 'Open-sans', 'Sans-serif';
+  font-weight: 800;
+
 }
 
 .navbar-default .navbar-brand,
@@ -51,6 +64,9 @@ background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, F
     color: white;
     opacity: 0.55;
   }
+  
+
+
 }
 
   
