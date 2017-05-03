@@ -40,6 +40,10 @@ background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, F
   border: none;
 }
 
+.navbar-brand {
+  font-family: 'Open-sans', 'Sans-serif'
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
